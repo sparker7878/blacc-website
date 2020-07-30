@@ -8,6 +8,13 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
+    `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-sharp`,
+    `gatsby-image`,
+    `gatsby-plugin-catch-links`,
+    `gatsby-plugin-resolve-src`,
+    `gatsby-plugin-remove-trailing-slashes`,
+    `gatsby-plugin-emotion`,
     {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
@@ -44,8 +51,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'yellowcake',
-        short_name: 'yellowcake',
+        name: 'Black, African-Heritage, and Caribbean Coalition',
+        short_name: 'BLACC',
         start_url: '/',
         background_color: '#00C2BD',
         theme_color: '#00C2BD',
