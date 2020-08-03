@@ -8,15 +8,16 @@
 }
 
 .Nav--Container {
-  display: flex;
+  display: grid;
   align-items: center;
   height: 6rem;
+  overflow: hidden;
 }
 
 .Nav--Links {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-end;
   flex-direction: row;
 }
 
